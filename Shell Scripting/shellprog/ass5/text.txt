@@ -1,0 +1,8 @@
+﻿
+
+4. Write a shell program which display only non-comment line of a given named file.
+nux-tpr2:~/shellprog/ass5> cat a.sh | grep -v '#'
+echo 888888888888
+dac@linux-tpr2:~/shellprog/ass5> cat a.sh | grep -v '^#'
+echo 888888888888
+

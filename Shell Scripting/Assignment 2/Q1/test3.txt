@@ -1,0 +1,1 @@
+This is the file created to test cat command to create the file

@@ -1,0 +1,481 @@
+Script started on Mon 12 Mar 2018 04:20:24 PM IST
+]0;dac@linux-5nia:~/programs]7;file://linux-5nia/home/dac/programs7]2;dac@:~/programs]1;8dac@linux-5nia:~/programs> ls
+[0m[01;34m5.player[0m                  [00mdate1.cpp[0m            [00mQ2[0m
+[01;34mAbstraction[0m               [00mdate.cpp[0m             [00mreferences.cpp[0m
+[01;34mAddress[0m                   [00mdelete_element.cpp[0m   [00mrtti.cpp[0m
+[00;32ma.out[0m                     [00mdifference.cpp[0m       [01;34mseparate header[0m
+[00mArray with dtor.cpp[0m       [01;34mevaluatiuon[0m          [00msfirst.cpp[0m
+[01;34mAssociation[0m               [00mException.cpp[0m        [01;34mShell Scripting[0m
+[00mBankSimulation.cpp[0m        [00minsert_elements.cpp[0m  [00mstring1.cpp[0m
+[00mccprog.c[0m                  [00mminmax.cpp[0m           [00mstringpgm.cpp[0m
+[00mcharpoint.cpp[0m             [00mmobile.cpp[0m           [00mstudentInfo.cpp[0m
+[01;34mcompile &runtime[0m          [01;34mMyString[0m             [00mswapUsingRef.cpp[0m
+[00mconstantsandpointers.cpp[0m  [01;34mpayslip[0m              [00mtime.cpp[0m
+[00mconstmember.cpp[0m           [00mptrarith.cpp[0m         [00mUsageOfStatic.cpp[0m
+[00mcprog.cpp[0m                 [00mptrconversion.cpp[0m
+]0;dac@linux-5nia:~/programs]7;file://linux-5nia/home/dac/programs7]2;dac@:~/programs]1;8dac@linux-5nia:~/programs> ls -l
+total 172
+drwxr-xr-x 2 dac users  4096 Mar  6 19:40 [0m[01;34m5.player[0m
+drwxr-xr-x 2 dac users  4096 Mar  5 16:10 [01;34mAbstraction[0m
+drwxr-xr-x 2 dac users  4096 Mar  6 21:36 [01;34mAddress[0m
+-rwxr-xr-x 1 dac users 18012 Mar  7 17:16 [00;32ma.out[0m
+-rw-r--r-- 1 dac users   755 Mar  1 21:17 [00mArray with dtor.cpp[0m
+drwxr-xr-x 2 dac users  4096 Mar  7 13:27 [01;34mAssociation[0m
+-rw-r--r-- 1 dac users  3237 Feb 27 21:51 [00mBankSimulation.cpp[0m
+-rw-r--r-- 1 dac users   236 Feb 26 10:20 [00mccprog.c[0m
+-rw-r--r-- 1 dac users  1189 Feb 26 11:00 [00mcharpoint.cpp[0m
+drwxr-xr-x 2 dac users  4096 Mar  5 13:01 [01;34mcompile &runtime[0m
+-rw-r--r-- 1 dac users   481 Feb 23 21:40 [00mconstantsandpointers.cpp[0m
+-rw-r--r-- 1 dac users   497 Feb 28 11:59 [00mconstmember.cpp[0m
+-rw-r--r-- 1 dac users   198 Feb 26 18:55 [00mcprog.cpp[0m
+-rw-r--r-- 1 dac users  4133 Mar  3 20:36 [00mdate1.cpp[0m
+-rw-r--r-- 1 dac users  5141 Mar  7 17:17 [00mdate.cpp[0m
+-rw-r--r-- 1 dac users   680 Feb 24 13:11 [00mdelete_element.cpp[0m
+-rw-r--r-- 1 dac users   276 Feb 26 10:31 [00mdifference.cpp[0m
+drwxr-xr-x 4 dac users  4096 Mar  8 19:14 [01;34mevaluatiuon[0m
+-rw-r--r-- 1 dac users   272 Mar  7 11:41 [00mException.cpp[0m
+-rw-r--r-- 1 dac users   857 Feb 26 10:00 [00minsert_elements.cpp[0m
+-rw-r--r-- 1 dac users  1110 Feb 26 20:00 [00mminmax.cpp[0m
+-rw-r--r-- 1 dac users  3094 Mar  6 19:24 [00mmobile.cpp[0m
+drwxr-xr-x 2 dac users  4096 Mar  7 11:56 [01;34mMyString[0m
+drwxr-xr-x 2 dac users  4096 Mar  5 16:10 [01;34mpayslip[0m
+-rw-r--r-- 1 dac users   329 Feb 23 21:18 [00mptrarith.cpp[0m
+-rw-r--r-- 1 dac users   383 Feb 23 21:53 [00mptrconversion.cpp[0m
+-rw-r--r-- 1 dac users     0 Mar 12 16:20 [00mQ2[0m
+-rw-r--r-- 1 dac users   247 Feb 28 11:55 [00mreferences.cpp[0m
+-rw-r--r-- 1 dac users  1069 Mar  6 19:24 [00mrtti.cpp[0m
+drwxr-xr-x 2 dac users  4096 Mar  3 18:56 [01;34mseparate header[0m
+-rw-r--r-- 1 dac users   767 Feb 23 19:28 [00msfirst.cpp[0m
+drwxr-xr-x 5 dac users  4096 Mar 12 13:56 [01;34mShell Scripting[0m
+-rw-r--r-- 1 dac users  1048 Feb 26 11:40 [00mstring1.cpp[0m
+-rw-r--r-- 1 dac users  1489 Feb 26 13:22 [00mstringpgm.cpp[0m
+-rw-r--r-- 1 dac users  2097 Feb 27 20:19 [00mstudentInfo.cpp[0m
+-rw-r--r-- 1 dac users   621 Mar  1 21:43 [00mswapUsingRef.cpp[0m
+-rw-r--r-- 1 dac users  1610 Feb 28 13:19 [00mtime.cpp[0m
+-rw-r--r-- 1 dac users   304 Feb 23 21:38 [00mUsageOfStatic.cpp[0m
+]0;dac@linux-5nia:~/programs]7;file://linux-5nia/home/dac/programs7]2;dac@:~/programs]1;8dac@linux-5nia:~/programs> ls -l --sort=size[K[K[K[Ktime
+total 176
+-rw-r--r-- 1 dac users  4096 Mar 12 16:20 [0m[00mQ2[0m
+drwxr-xr-x 5 dac users  4096 Mar 12 13:56 [01;34mShell Scripting[0m
+drwxr-xr-x 4 dac users  4096 Mar  8 19:14 [01;34mevaluatiuon[0m
+-rw-r--r-- 1 dac users  5141 Mar  7 17:17 [00mdate.cpp[0m
+-rwxr-xr-x 1 dac users 18012 Mar  7 17:16 [00;32ma.out[0m
+drwxr-xr-x 2 dac users  4096 Mar  7 13:27 [01;34mAssociation[0m
+drwxr-xr-x 2 dac users  4096 Mar  7 11:56 [01;34mMyString[0m
+-rw-r--r-- 1 dac users   272 Mar  7 11:41 [00mException.cpp[0m
+drwxr-xr-x 2 dac users  4096 Mar  6 21:36 [01;34mAddress[0m
+drwxr-xr-x 2 dac users  4096 Mar  6 19:40 [01;34m5.player[0m
+-rw-r--r-- 1 dac users  1069 Mar  6 19:24 [00mrtti.cpp[0m
+-rw-r--r-- 1 dac users  3094 Mar  6 19:24 [00mmobile.cpp[0m
+drwxr-xr-x 2 dac users  4096 Mar  5 16:10 [01;34mAbstraction[0m
+drwxr-xr-x 2 dac users  4096 Mar  5 16:10 [01;34mpayslip[0m
+drwxr-xr-x 2 dac users  4096 Mar  5 13:01 [01;34mcompile &runtime[0m
+-rw-r--r-- 1 dac users  4133 Mar  3 20:36 [00mdate1.cpp[0m
+drwxr-xr-x 2 dac users  4096 Mar  3 18:56 [01;34mseparate header[0m
+-rw-r--r-- 1 dac users   621 Mar  1 21:43 [00mswapUsingRef.cpp[0m
+-rw-r--r-- 1 dac users   755 Mar  1 21:17 [00mArray with dtor.cpp[0m
+-rw-r--r-- 1 dac users  1610 Feb 28 13:19 [00mtime.cpp[0m
+-rw-r--r-- 1 dac users   497 Feb 28 11:59 [00mconstmember.cpp[0m
+-rw-r--r-- 1 dac users   247 Feb 28 11:55 [00mreferences.cpp[0m
+-rw-r--r-- 1 dac users  3237 Feb 27 21:51 [00mBankSimulation.cpp[0m
+-rw-r--r-- 1 dac users  2097 Feb 27 20:19 [00mstudentInfo.cpp[0m
+-rw-r--r-- 1 dac users  1110 Feb 26 20:00 [00mminmax.cpp[0m
+-rw-r--r-- 1 dac users   198 Feb 26 18:55 [00mcprog.cpp[0m
+-rw-r--r-- 1 dac users  1489 Feb 26 13:22 [00mstringpgm.cpp[0m
+-rw-r--r-- 1 dac users  1048 Feb 26 11:40 [00mstring1.cpp[0m
+-rw-r--r-- 1 dac users  1189 Feb 26 11:00 [00mcharpoint.cpp[0m
+-rw-r--r-- 1 dac users   276 Feb 26 10:31 [00mdifference.cpp[0m
+-rw-r--r-- 1 dac users   236 Feb 26 10:20 [00mccprog.c[0m
+-rw-r--r-- 1 dac users   857 Feb 26 10:00 [00minsert_elements.cpp[0m
+-rw-r--r-- 1 dac users   680 Feb 24 13:11 [00mdelete_element.cpp[0m
+-rw-r--r-- 1 dac users   383 Feb 23 21:53 [00mptrconversion.cpp[0m
+-rw-r--r-- 1 dac users   481 Feb 23 21:40 [00mconstantsandpointers.cpp[0m
+-rw-r--r-- 1 dac users   304 Feb 23 21:38 [00mUsageOfStatic.cpp[0m
+-rw-r--r-- 1 dac users   329 Feb 23 21:18 [00mptrarith.cpp[0m
+-rw-r--r-- 1 dac users   767 Feb 23 19:28 [00msfirst.cpp[0m
+]0;dac@linux-5nia:~/programs]7;file://linux-5nia/home/dac/programs7]2;dac@:~/programs]1;8dac@linux-5nia:~/programs> ls -l --sort=time[C[K[K[K[Ksize
+total 176
+-rwxr-xr-x 1 dac users 18012 Mar  7 17:16 [0m[00;32ma.out[0m
+-rw-r--r-- 1 dac users  5141 Mar  7 17:17 [00mdate.cpp[0m
+-rw-r--r-- 1 dac users  4133 Mar  3 20:36 [00mdate1.cpp[0m
+drwxr-xr-x 2 dac users  4096 Mar  6 19:40 [01;34m5.player[0m
+drwxr-xr-x 2 dac users  4096 Mar  5 16:10 [01;34mAbstraction[0m
+drwxr-xr-x 2 dac users  4096 Mar  6 21:36 [01;34mAddress[0m
+drwxr-xr-x 2 dac users  4096 Mar  7 13:27 [01;34mAssociation[0m
+drwxr-xr-x 2 dac users  4096 Mar  5 13:01 [01;34mcompile &runtime[0m
+drwxr-xr-x 4 dac users  4096 Mar  8 19:14 [01;34mevaluatiuon[0m
+drwxr-xr-x 2 dac users  4096 Mar  7 11:56 [01;34mMyString[0m
+drwxr-xr-x 2 dac users  4096 Mar  5 16:10 [01;34mpayslip[0m
+-rw-r--r-- 1 dac users  4096 Mar 12 16:20 [00mQ2[0m
+drwxr-xr-x 2 dac users  4096 Mar  3 18:56 [01;34mseparate header[0m
+drwxr-xr-x 5 dac users  4096 Mar 12 13:56 [01;34mShell Scripting[0m
+-rw-r--r-- 1 dac users  3237 Feb 27 21:51 [00mBankSimulation.cpp[0m
+-rw-r--r-- 1 dac users  3094 Mar  6 19:24 [00mmobile.cpp[0m
+-rw-r--r-- 1 dac users  2097 Feb 27 20:19 [00mstudentInfo.cpp[0m
+-rw-r--r-- 1 dac users  1610 Feb 28 13:19 [00mtime.cpp[0m
+-rw-r--r-- 1 dac users  1489 Feb 26 13:22 [00mstringpgm.cpp[0m
+-rw-r--r-- 1 dac users  1189 Feb 26 11:00 [00mcharpoint.cpp[0m
+-rw-r--r-- 1 dac users  1110 Feb 26 20:00 [00mminmax.cpp[0m
+-rw-r--r-- 1 dac users  1069 Mar  6 19:24 [00mrtti.cpp[0m
+-rw-r--r-- 1 dac users  1048 Feb 26 11:40 [00mstring1.cpp[0m
+-rw-r--r-- 1 dac users   857 Feb 26 10:00 [00minsert_elements.cpp[0m
+-rw-r--r-- 1 dac users   767 Feb 23 19:28 [00msfirst.cpp[0m
+-rw-r--r-- 1 dac users   755 Mar  1 21:17 [00mArray with dtor.cpp[0m
+-rw-r--r-- 1 dac users   680 Feb 24 13:11 [00mdelete_element.cpp[0m
+-rw-r--r-- 1 dac users   621 Mar  1 21:43 [00mswapUsingRef.cpp[0m
+-rw-r--r-- 1 dac users   497 Feb 28 11:59 [00mconstmember.cpp[0m
+-rw-r--r-- 1 dac users   481 Feb 23 21:40 [00mconstantsandpointers.cpp[0m
+-rw-r--r-- 1 dac users   383 Feb 23 21:53 [00mptrconversion.cpp[0m
+-rw-r--r-- 1 dac users   329 Feb 23 21:18 [00mptrarith.cpp[0m
+-rw-r--r-- 1 dac users   304 Feb 23 21:38 [00mUsageOfStatic.cpp[0m
+-rw-r--r-- 1 dac users   276 Feb 26 10:31 [00mdifference.cpp[0m
+-rw-r--r-- 1 dac users   272 Mar  7 11:41 [00mException.cpp[0m
+-rw-r--r-- 1 dac users   247 Feb 28 11:55 [00mreferences.cpp[0m
+-rw-r--r-- 1 dac users   236 Feb 26 10:20 [00mccprog.c[0m
+-rw-r--r-- 1 dac users   198 Feb 26 18:55 [00mcprog.cpp[0m
+]0;dac@linux-5nia:~/programs]7;file://linux-5nia/home/dac/programs7]2;dac@:~/programs]1;8dac@linux-5nia:~/programs> ls -l --sort=size[K[K[K[Kextension
+total 180
+drwxr-xr-x 2 dac users  4096 Mar  5 16:10 [0m[01;34mAbstraction[0m
+drwxr-xr-x 2 dac users  4096 Mar  6 21:36 [01;34mAddress[0m
+drwxr-xr-x 2 dac users  4096 Mar  7 13:27 [01;34mAssociation[0m
+drwxr-xr-x 2 dac users  4096 Mar  5 13:01 [01;34mcompile &runtime[0m
+drwxr-xr-x 4 dac users  4096 Mar  8 19:14 [01;34mevaluatiuon[0m
+drwxr-xr-x 2 dac users  4096 Mar  7 11:56 [01;34mMyString[0m
+drwxr-xr-x 2 dac users  4096 Mar  5 16:10 [01;34mpayslip[0m
+-rw-r--r-- 1 dac users  8192 Mar 12 16:21 [00mQ2[0m
+drwxr-xr-x 2 dac users  4096 Mar  3 18:56 [01;34mseparate header[0m
+drwxr-xr-x 5 dac users  4096 Mar 12 13:56 [01;34mShell Scripting[0m
+-rw-r--r-- 1 dac users   236 Feb 26 10:20 [00mccprog.c[0m
+-rw-r--r-- 1 dac users   755 Mar  1 21:17 [00mArray with dtor.cpp[0m
+-rw-r--r-- 1 dac users  3237 Feb 27 21:51 [00mBankSimulation.cpp[0m
+-rw-r--r-- 1 dac users  1189 Feb 26 11:00 [00mcharpoint.cpp[0m
+-rw-r--r-- 1 dac users   481 Feb 23 21:40 [00mconstantsandpointers.cpp[0m
+-rw-r--r-- 1 dac users   497 Feb 28 11:59 [00mconstmember.cpp[0m
+-rw-r--r-- 1 dac users   198 Feb 26 18:55 [00mcprog.cpp[0m
+-rw-r--r-- 1 dac users  4133 Mar  3 20:36 [00mdate1.cpp[0m
+-rw-r--r-- 1 dac users  5141 Mar  7 17:17 [00mdate.cpp[0m
+-rw-r--r-- 1 dac users   680 Feb 24 13:11 [00mdelete_element.cpp[0m
+-rw-r--r-- 1 dac users   276 Feb 26 10:31 [00mdifference.cpp[0m
+-rw-r--r-- 1 dac users   272 Mar  7 11:41 [00mException.cpp[0m
+-rw-r--r-- 1 dac users   857 Feb 26 10:00 [00minsert_elements.cpp[0m
+-rw-r--r-- 1 dac users  1110 Feb 26 20:00 [00mminmax.cpp[0m
+-rw-r--r-- 1 dac users  3094 Mar  6 19:24 [00mmobile.cpp[0m
+-rw-r--r-- 1 dac users   329 Feb 23 21:18 [00mptrarith.cpp[0m
+-rw-r--r-- 1 dac users   383 Feb 23 21:53 [00mptrconversion.cpp[0m
+-rw-r--r-- 1 dac users   247 Feb 28 11:55 [00mreferences.cpp[0m
+-rw-r--r-- 1 dac users  1069 Mar  6 19:24 [00mrtti.cpp[0m
+-rw-r--r-- 1 dac users   767 Feb 23 19:28 [00msfirst.cpp[0m
+-rw-r--r-- 1 dac users  1048 Feb 26 11:40 [00mstring1.cpp[0m
+-rw-r--r-- 1 dac users  1489 Feb 26 13:22 [00mstringpgm.cpp[0m
+-rw-r--r-- 1 dac users  2097 Feb 27 20:19 [00mstudentInfo.cpp[0m
+-rw-r--r-- 1 dac users   621 Mar  1 21:43 [00mswapUsingRef.cpp[0m
+-rw-r--r-- 1 dac users  1610 Feb 28 13:19 [00mtime.cpp[0m
+-rw-r--r-- 1 dac users   304 Feb 23 21:38 [00mUsageOfStatic.cpp[0m
+-rwxr-xr-x 1 dac users 18012 Mar  7 17:16 [00;32ma.out[0m
+drwxr-xr-x 2 dac users  4096 Mar  6 19:40 [01;34m5.player[0m
+]0;dac@linux-5nia:~/programs]7;file://linux-5nia/home/dac/programs7]2;dac@:~/programs]1;8dac@linux-5nia:~/programs> touch .h1 .h2 .h2[K3[K[K[K[K[K[K[K[K[K[K[K.h{1..5}
+]0;dac@linux-5nia:~/programs]7;file://linux-5nia/home/dac/programs7]2;dac@:~/programs]1;8dac@linux-5nia:~/programs> mkdir .hd{1..5}
+]0;dac@linux-5nia:~/programs]7;file://linux-5nia/home/dac/programs7]2;dac@:~/programs]1;8dac@linux-5nia:~/programs> ls -a
+[0m[01;34m.[0m                         [00m.date.cpp.swp[0m        [00mmobile.cpp[0m
+[01;34m..[0m                        [00mdelete_element.cpp[0m   [01;34mMyString[0m
+[01;34m5.player[0m                  [00mdifference.cpp[0m       [01;34mpayslip[0m
+[01;34mAbstraction[0m               [01;34mevaluatiuon[0m          [00mptrarith.cpp[0m
+[01;34mAddress[0m                   [00mException.cpp[0m        [00mptrconversion.cpp[0m
+[00;32ma.out[0m                     [00m.h1[0m                  [00mQ2[0m
+[00mArray with dtor.cpp[0m       [00m.h2[0m                  [00mreferences.cpp[0m
+[01;34mAssociation[0m               [00m.h3[0m                  [00mrtti.cpp[0m
+[00mBankSimulation.cpp[0m        [00m.h4[0m                  [01;34mseparate header[0m
+[00mccprog.c[0m                  [00m.h5[0m                  [00msfirst.cpp[0m
+[00mcharpoint.cpp[0m             [01;34m.hd1[0m                 [01;34mShell Scripting[0m
+[01;34mcompile &runtime[0m          [01;34m.hd2[0m                 [00mstring1.cpp[0m
+[00mconstantsandpointers.cpp[0m  [01;34m.hd3[0m                 [00mstringpgm.cpp[0m
+[00mconstmember.cpp[0m           [01;34m.hd4[0m                 [00mstudentInfo.cpp[0m
+[00mcprog.cpp[0m                 [01;34m.hd5[0m                 [00mswapUsingRef.cpp[0m
+[00mdate1.cpp[0m                 [00minsert_elements.cpp[0m  [00mtime.cpp[0m
+[00mdate.cpp[0m                  [00mminmax.cpp[0m           [00mUsageOfStatic.cpp[0m
+]0;dac@linux-5nia:~/programs]7;file://linux-5nia/home/dac/programs7]2;dac@:~/programs]1;8dac@linux-5nia:~/programs> ls -a[C[C-al-a -a
+total 224
+drwxr-xr-x 17 dac users  4096 Mar 12 16:23 [0m[01;34m.[0m
+drwxr-xr-x 31 dac users  4096 Mar 12 16:09 [01;34m..[0m
+drwxr-xr-x  2 dac users  4096 Mar  6 19:40 [01;34m5.player[0m
+drwxr-xr-x  2 dac users  4096 Mar  5 16:10 [01;34mAbstraction[0m
+drwxr-xr-x  2 dac users  4096 Mar  6 21:36 [01;34mAddress[0m
+-rwxr-xr-x  1 dac users 18012 Mar  7 17:16 [00;32ma.out[0m
+-rw-r--r--  1 dac users   755 Mar  1 21:17 [00mArray with dtor.cpp[0m
+drwxr-xr-x  2 dac users  4096 Mar  7 13:27 [01;34mAssociation[0m
+-rw-r--r--  1 dac users  3237 Feb 27 21:51 [00mBankSimulation.cpp[0m
+-rw-r--r--  1 dac users   236 Feb 26 10:20 [00mccprog.c[0m
+-rw-r--r--  1 dac users  1189 Feb 26 11:00 [00mcharpoint.cpp[0m
+drwxr-xr-x  2 dac users  4096 Mar  5 13:01 [01;34mcompile &runtime[0m
+-rw-r--r--  1 dac users   481 Feb 23 21:40 [00mconstantsandpointers.cpp[0m
+-rw-r--r--  1 dac users   497 Feb 28 11:59 [00mconstmember.cpp[0m
+-rw-r--r--  1 dac users   198 Feb 26 18:55 [00mcprog.cpp[0m
+-rw-r--r--  1 dac users  4133 Mar  3 20:36 [00mdate1.cpp[0m
+-rw-r--r--  1 dac users  5141 Mar  7 17:17 [00mdate.cpp[0m
+-rw-r--r--  1 dac users 12288 Mar  3 19:52 [00m.date.cpp.swp[0m
+-rw-r--r--  1 dac users   680 Feb 24 13:11 [00mdelete_element.cpp[0m
+-rw-r--r--  1 dac users   276 Feb 26 10:31 [00mdifference.cpp[0m
+drwxr-xr-x  4 dac users  4096 Mar  8 19:14 [01;34mevaluatiuon[0m
+-rw-r--r--  1 dac users   272 Mar  7 11:41 [00mException.cpp[0m
+-rw-r--r--  1 dac users     0 Mar 12 16:23 [00m.h1[0m
+-rw-r--r--  1 dac users     0 Mar 12 16:23 [00m.h2[0m
+-rw-r--r--  1 dac users     0 Mar 12 16:23 [00m.h3[0m
+-rw-r--r--  1 dac users     0 Mar 12 16:23 [00m.h4[0m
+-rw-r--r--  1 dac users     0 Mar 12 16:23 [00m.h5[0m
+drwxr-xr-x  2 dac users  4096 Mar 12 16:23 [01;34m.hd1[0m
+drwxr-xr-x  2 dac users  4096 Mar 12 16:23 [01;34m.hd2[0m
+drwxr-xr-x  2 dac users  4096 Mar 12 16:23 [01;34m.hd3[0m
+drwxr-xr-x  2 dac users  4096 Mar 12 16:23 [01;34m.hd4[0m
+drwxr-xr-x  2 dac users  4096 Mar 12 16:23 [01;34m.hd5[0m
+-rw-r--r--  1 dac users   857 Feb 26 10:00 [00minsert_elements.cpp[0m
+-rw-r--r--  1 dac users  1110 Feb 26 20:00 [00mminmax.cpp[0m
+-rw-r--r--  1 dac users  3094 Mar  6 19:24 [00mmobile.cpp[0m
+drwxr-xr-x  2 dac users  4096 Mar  7 11:56 [01;34mMyString[0m
+drwxr-xr-x  2 dac users  4096 Mar  5 16:10 [01;34mpayslip[0m
+-rw-r--r--  1 dac users   329 Feb 23 21:18 [00mptrarith.cpp[0m
+-rw-r--r--  1 dac users   383 Feb 23 21:53 [00mptrconversion.cpp[0m
+-rw-r--r--  1 dac users 12288 Mar 12 16:23 [00mQ2[0m
+-rw-r--r--  1 dac users   247 Feb 28 11:55 [00mreferences.cpp[0m
+-rw-r--r--  1 dac users  1069 Mar  6 19:24 [00mrtti.cpp[0m
+drwxr-xr-x  2 dac users  4096 Mar  3 18:56 [01;34mseparate header[0m
+-rw-r--r--  1 dac users   767 Feb 23 19:28 [00msfirst.cpp[0m
+drwxr-xr-x  5 dac users  4096 Mar 12 13:56 [01;34mShell Scripting[0m
+-rw-r--r--  1 dac users  1048 Feb 26 11:40 [00mstring1.cpp[0m
+-rw-r--r--  1 dac users  1489 Feb 26 13:22 [00mstringpgm.cpp[0m
+-rw-r--r--  1 dac users  2097 Feb 27 20:19 [00mstudentInfo.cpp[0m
+-rw-r--r--  1 dac users   621 Mar  1 21:43 [00mswapUsingRef.cpp[0m
+-rw-r--r--  1 dac users  1610 Feb 28 13:19 [00mtime.cpp[0m
+-rw-r--r--  1 dac users   304 Feb 23 21:38 [00mUsageOfStatic.cpp[0m
+]0;dac@linux-5nia:~/programs]7;file://linux-5nia/home/dac/programs7]2;dac@:~/programs]1;8dac@linux-5nia:~/programs> ls -l -a[K[K[K
+total 188
+drwxr-xr-x 2 dac users  4096 Mar  6 19:40 [0m[01;34m5.player[0m
+drwxr-xr-x 2 dac users  4096 Mar  5 16:10 [01;34mAbstraction[0m
+drwxr-xr-x 2 dac users  4096 Mar  6 21:36 [01;34mAddress[0m
+-rwxr-xr-x 1 dac users 18012 Mar  7 17:16 [00;32ma.out[0m
+-rw-r--r-- 1 dac users   755 Mar  1 21:17 [00mArray with dtor.cpp[0m
+drwxr-xr-x 2 dac users  4096 Mar  7 13:27 [01;34mAssociation[0m
+-rw-r--r-- 1 dac users  3237 Feb 27 21:51 [00mBankSimulation.cpp[0m
+-rw-r--r-- 1 dac users   236 Feb 26 10:20 [00mccprog.c[0m
+-rw-r--r-- 1 dac users  1189 Feb 26 11:00 [00mcharpoint.cpp[0m
+drwxr-xr-x 2 dac users  4096 Mar  5 13:01 [01;34mcompile &runtime[0m
+-rw-r--r-- 1 dac users   481 Feb 23 21:40 [00mconstantsandpointers.cpp[0m
+-rw-r--r-- 1 dac users   497 Feb 28 11:59 [00mconstmember.cpp[0m
+-rw-r--r-- 1 dac users   198 Feb 26 18:55 [00mcprog.cpp[0m
+-rw-r--r-- 1 dac users  4133 Mar  3 20:36 [00mdate1.cpp[0m
+-rw-r--r-- 1 dac users  5141 Mar  7 17:17 [00mdate.cpp[0m
+-rw-r--r-- 1 dac users   680 Feb 24 13:11 [00mdelete_element.cpp[0m
+-rw-r--r-- 1 dac users   276 Feb 26 10:31 [00mdifference.cpp[0m
+drwxr-xr-x 4 dac users  4096 Mar  8 19:14 [01;34mevaluatiuon[0m
+-rw-r--r-- 1 dac users   272 Mar  7 11:41 [00mException.cpp[0m
+-rw-r--r-- 1 dac users   857 Feb 26 10:00 [00minsert_elements.cpp[0m
+-rw-r--r-- 1 dac users  1110 Feb 26 20:00 [00mminmax.cpp[0m
+-rw-r--r-- 1 dac users  3094 Mar  6 19:24 [00mmobile.cpp[0m
+drwxr-xr-x 2 dac users  4096 Mar  7 11:56 [01;34mMyString[0m
+drwxr-xr-x 2 dac users  4096 Mar  5 16:10 [01;34mpayslip[0m
+-rw-r--r-- 1 dac users   329 Feb 23 21:18 [00mptrarith.cpp[0m
+-rw-r--r-- 1 dac users   383 Feb 23 21:53 [00mptrconversion.cpp[0m
+-rw-r--r-- 1 dac users 16384 Mar 12 16:24 [00mQ2[0m
+-rw-r--r-- 1 dac users   247 Feb 28 11:55 [00mreferences.cpp[0m
+-rw-r--r-- 1 dac users  1069 Mar  6 19:24 [00mrtti.cpp[0m
+drwxr-xr-x 2 dac users  4096 Mar  3 18:56 [01;34mseparate header[0m
+-rw-r--r-- 1 dac users   767 Feb 23 19:28 [00msfirst.cpp[0m
+drwxr-xr-x 5 dac users  4096 Mar 12 13:56 [01;34mShell Scripting[0m
+-rw-r--r-- 1 dac users  1048 Feb 26 11:40 [00mstring1.cpp[0m
+-rw-r--r-- 1 dac users  1489 Feb 26 13:22 [00mstringpgm.cpp[0m
+-rw-r--r-- 1 dac users  2097 Feb 27 20:19 [00mstudentInfo.cpp[0m
+-rw-r--r-- 1 dac users   621 Mar  1 21:43 [00mswapUsingRef.cpp[0m
+-rw-r--r-- 1 dac users  1610 Feb 28 13:19 [00mtime.cpp[0m
+-rw-r--r-- 1 dac users   304 Feb 23 21:38 [00mUsageOfStatic.cpp[0m
+]0;dac@linux-5nia:~/programs]7;file://linux-5nia/home/dac/programs7]2;dac@:~/programs]1;8dac@linux-5nia:~/programs> ls -l -r
+total 188
+-rw-r--r-- 1 dac users   304 Feb 23 21:38 [0m[00mUsageOfStatic.cpp[0m
+-rw-r--r-- 1 dac users  1610 Feb 28 13:19 [00mtime.cpp[0m
+-rw-r--r-- 1 dac users   621 Mar  1 21:43 [00mswapUsingRef.cpp[0m
+-rw-r--r-- 1 dac users  2097 Feb 27 20:19 [00mstudentInfo.cpp[0m
+-rw-r--r-- 1 dac users  1489 Feb 26 13:22 [00mstringpgm.cpp[0m
+-rw-r--r-- 1 dac users  1048 Feb 26 11:40 [00mstring1.cpp[0m
+drwxr-xr-x 5 dac users  4096 Mar 12 13:56 [01;34mShell Scripting[0m
+-rw-r--r-- 1 dac users   767 Feb 23 19:28 [00msfirst.cpp[0m
+drwxr-xr-x 2 dac users  4096 Mar  3 18:56 [01;34mseparate header[0m
+-rw-r--r-- 1 dac users  1069 Mar  6 19:24 [00mrtti.cpp[0m
+-rw-r--r-- 1 dac users   247 Feb 28 11:55 [00mreferences.cpp[0m
+-rw-r--r-- 1 dac users 16384 Mar 12 16:24 [00mQ2[0m
+-rw-r--r-- 1 dac users   383 Feb 23 21:53 [00mptrconversion.cpp[0m
+-rw-r--r-- 1 dac users   329 Feb 23 21:18 [00mptrarith.cpp[0m
+drwxr-xr-x 2 dac users  4096 Mar  5 16:10 [01;34mpayslip[0m
+drwxr-xr-x 2 dac users  4096 Mar  7 11:56 [01;34mMyString[0m
+-rw-r--r-- 1 dac users  3094 Mar  6 19:24 [00mmobile.cpp[0m
+-rw-r--r-- 1 dac users  1110 Feb 26 20:00 [00mminmax.cpp[0m
+-rw-r--r-- 1 dac users   857 Feb 26 10:00 [00minsert_elements.cpp[0m
+-rw-r--r-- 1 dac users   272 Mar  7 11:41 [00mException.cpp[0m
+drwxr-xr-x 4 dac users  4096 Mar  8 19:14 [01;34mevaluatiuon[0m
+-rw-r--r-- 1 dac users   276 Feb 26 10:31 [00mdifference.cpp[0m
+-rw-r--r-- 1 dac users   680 Feb 24 13:11 [00mdelete_element.cpp[0m
+-rw-r--r-- 1 dac users  5141 Mar  7 17:17 [00mdate.cpp[0m
+-rw-r--r-- 1 dac users  4133 Mar  3 20:36 [00mdate1.cpp[0m
+-rw-r--r-- 1 dac users   198 Feb 26 18:55 [00mcprog.cpp[0m
+-rw-r--r-- 1 dac users   497 Feb 28 11:59 [00mconstmember.cpp[0m
+-rw-r--r-- 1 dac users   481 Feb 23 21:40 [00mconstantsandpointers.cpp[0m
+drwxr-xr-x 2 dac users  4096 Mar  5 13:01 [01;34mcompile &runtime[0m
+-rw-r--r-- 1 dac users  1189 Feb 26 11:00 [00mcharpoint.cpp[0m
+-rw-r--r-- 1 dac users   236 Feb 26 10:20 [00mccprog.c[0m
+-rw-r--r-- 1 dac users  3237 Feb 27 21:51 [00mBankSimulation.cpp[0m
+drwxr-xr-x 2 dac users  4096 Mar  7 13:27 [01;34mAssociation[0m
+-rw-r--r-- 1 dac users   755 Mar  1 21:17 [00mArray with dtor.cpp[0m
+-rwxr-xr-x 1 dac users 18012 Mar  7 17:16 [00;32ma.out[0m
+drwxr-xr-x 2 dac users  4096 Mar  6 21:36 [01;34mAddress[0m
+drwxr-xr-x 2 dac users  4096 Mar  5 16:10 [01;34mAbstraction[0m
+drwxr-xr-x 2 dac users  4096 Mar  6 19:40 [01;34m5.player[0m
+]0;dac@linux-5nia:~/programs]7;file://linux-5nia/home/dac/programs7]2;dac@:~/programs]1;8dac@linux-5nia:~/programs> ls -l -r[C[C programs
+ls: cannot access programs: No such file or directory
+]0;dac@linux-5nia:~/programs]7;file://linux-5nia/home/dac/programs7]2;dac@:~/programs]1;8dac@linux-5nia:~/programs> ls -l -r programs[K[K[K[K[K[K[K[Kevaluatiuon/
+total 8
+drwxr-xr-x 6 dac users 4096 Mar  8 19:13 [0m[01;34mcpp assignments[0m
+drwxr-xr-x 2 dac users 4096 Mar  8 19:12 [01;34mC Assignments[0m
+]0;dac@linux-5nia:~/programs]7;file://linux-5nia/home/dac/programs7]2;dac@:~/programs]1;8dac@linux-5nia:~/programs> ls -l -r evaluatiuon/[1P[1P[1P[C[Cv evaluatiuon/
+[0m[01;34mcpp assignments[0m  [01;34mC Assignments[0m
+]0;dac@linux-5nia:~/programs]7;file://linux-5nia/home/dac/programs7]2;dac@:~/programs]1;8dac@linux-5nia:~/programs> ls -rv evaluatiuon/[1P evaluatiuon/[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[0m[01;34mcpp assignments[0m  [01;34mC Assignments[0m
+]0;dac@linux-5nia:~/programs]7;file://linux-5nia/home/dac/programs7]2;dac@:~/programs]1;8dac@linux-5nia:~/programs> ls -r evaluatiuon[K[K[K[K[K[K[K[K[K[K[K[K
+[0m[00mUsageOfStatic.cpp[0m  [00mptrarith.cpp[0m         [00mconstmember.cpp[0m
+[00mtime.cpp[0m           [01;34mpayslip[0m              [00mconstantsandpointers.cpp[0m
+[00mswapUsingRef.cpp[0m   [01;34mMyString[0m             [01;34mcompile &runtime[0m
+[00mstudentInfo.cpp[0m    [00mmobile.cpp[0m           [00mcharpoint.cpp[0m
+[00mstringpgm.cpp[0m      [00mminmax.cpp[0m           [00mccprog.c[0m
+[00mstring1.cpp[0m        [00minsert_elements.cpp[0m  [00mBankSimulation.cpp[0m
+[01;34mShell Scripting[0m    [00mException.cpp[0m        [01;34mAssociation[0m
+[00msfirst.cpp[0m         [01;34mevaluatiuon[0m          [00mArray with dtor.cpp[0m
+[01;34mseparate header[0m    [00mdifference.cpp[0m       [00;32ma.out[0m
+[00mrtti.cpp[0m           [00mdelete_element.cpp[0m   [01;34mAddress[0m
+[00mreferences.cpp[0m     [00mdate.cpp[0m             [01;34mAbstraction[0m
+[00mQ2[0m                 [00mdate1.cpp[0m            [01;34m5.player[0m
+[00mptrconversion.cpp[0m  [00mcprog.cpp[0m
+]0;dac@linux-5nia:~/programs]7;file://linux-5nia/home/dac/programs7]2;dac@:~/programs]1;8dac@linux-5nia:~/programs> ls -l
+total 196
+drwxr-xr-x 2 dac users  4096 Mar  6 19:40 [0m[01;34m5.player[0m
+drwxr-xr-x 2 dac users  4096 Mar  5 16:10 [01;34mAbstraction[0m
+drwxr-xr-x 2 dac users  4096 Mar  6 21:36 [01;34mAddress[0m
+-rwxr-xr-x 1 dac users 18012 Mar  7 17:16 [00;32ma.out[0m
+-rw-r--r-- 1 dac users   755 Mar  1 21:17 [00mArray with dtor.cpp[0m
+drwxr-xr-x 2 dac users  4096 Mar  7 13:27 [01;34mAssociation[0m
+-rw-r--r-- 1 dac users  3237 Feb 27 21:51 [00mBankSimulation.cpp[0m
+-rw-r--r-- 1 dac users   236 Feb 26 10:20 [00mccprog.c[0m
+-rw-r--r-- 1 dac users  1189 Feb 26 11:00 [00mcharpoint.cpp[0m
+drwxr-xr-x 2 dac users  4096 Mar  5 13:01 [01;34mcompile &runtime[0m
+-rw-r--r-- 1 dac users   481 Feb 23 21:40 [00mconstantsandpointers.cpp[0m
+-rw-r--r-- 1 dac users   497 Feb 28 11:59 [00mconstmember.cpp[0m
+-rw-r--r-- 1 dac users   198 Feb 26 18:55 [00mcprog.cpp[0m
+-rw-r--r-- 1 dac users  4133 Mar  3 20:36 [00mdate1.cpp[0m
+-rw-r--r-- 1 dac users  5141 Mar  7 17:17 [00mdate.cpp[0m
+-rw-r--r-- 1 dac users   680 Feb 24 13:11 [00mdelete_element.cpp[0m
+-rw-r--r-- 1 dac users   276 Feb 26 10:31 [00mdifference.cpp[0m
+drwxr-xr-x 4 dac users  4096 Mar  8 19:14 [01;34mevaluatiuon[0m
+-rw-r--r-- 1 dac users   272 Mar  7 11:41 [00mException.cpp[0m
+-rw-r--r-- 1 dac users   857 Feb 26 10:00 [00minsert_elements.cpp[0m
+-rw-r--r-- 1 dac users  1110 Feb 26 20:00 [00mminmax.cpp[0m
+-rw-r--r-- 1 dac users  3094 Mar  6 19:24 [00mmobile.cpp[0m
+drwxr-xr-x 2 dac users  4096 Mar  7 11:56 [01;34mMyString[0m
+drwxr-xr-x 2 dac users  4096 Mar  5 16:10 [01;34mpayslip[0m
+-rw-r--r-- 1 dac users   329 Feb 23 21:18 [00mptrarith.cpp[0m
+-rw-r--r-- 1 dac users   383 Feb 23 21:53 [00mptrconversion.cpp[0m
+-rw-r--r-- 1 dac users 24576 Mar 12 16:26 [00mQ2[0m
+-rw-r--r-- 1 dac users   247 Feb 28 11:55 [00mreferences.cpp[0m
+-rw-r--r-- 1 dac users  1069 Mar  6 19:24 [00mrtti.cpp[0m
+drwxr-xr-x 2 dac users  4096 Mar  3 18:56 [01;34mseparate header[0m
+-rw-r--r-- 1 dac users   767 Feb 23 19:28 [00msfirst.cpp[0m
+drwxr-xr-x 5 dac users  4096 Mar 12 13:56 [01;34mShell Scripting[0m
+-rw-r--r-- 1 dac users  1048 Feb 26 11:40 [00mstring1.cpp[0m
+-rw-r--r-- 1 dac users  1489 Feb 26 13:22 [00mstringpgm.cpp[0m
+-rw-r--r-- 1 dac users  2097 Feb 27 20:19 [00mstudentInfo.cpp[0m
+-rw-r--r-- 1 dac users   621 Mar  1 21:43 [00mswapUsingRef.cpp[0m
+-rw-r--r-- 1 dac users  1610 Feb 28 13:19 [00mtime.cpp[0m
+-rw-r--r-- 1 dac users   304 Feb 23 21:38 [00mUsageOfStatic.cpp[0m
+]0;dac@linux-5nia:~/programs]7;file://linux-5nia/home/dac/programs7]2;dac@:~/programs]1;8dac@linux-5nia:~/programs> ls -ld
+drwxr-xr-x 17 dac users 4096 Mar 12 16:23 [0m[01;34m.[0m
+]0;dac@linux-5nia:~/programs]7;file://linux-5nia/home/dac/programs7]2;dac@:~/programs]1;8dac@linux-5nia:~/programs> ls -ld evaluatiuon/[K
+drwxr-xr-x 4 dac users 4096 Mar  8 19:14 [0m[01;34mevaluatiuon[0m
+]0;dac@linux-5nia:~/programs]7;file://linux-5nia/home/dac/programs7]2;dac@:~/programs]1;8dac@linux-5nia:~/programs> ls -ld evaluatiuon[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K-R
+.:
+[0m[01;34m5.player[0m                  [00mdate1.cpp[0m            [00mQ2[0m
+[01;34mAbstraction[0m               [00mdate.cpp[0m             [00mreferences.cpp[0m
+[01;34mAddress[0m                   [00mdelete_element.cpp[0m   [00mrtti.cpp[0m
+[00;32ma.out[0m                     [00mdifference.cpp[0m       [01;34mseparate header[0m
+[00mArray with dtor.cpp[0m       [01;34mevaluatiuon[0m          [00msfirst.cpp[0m
+[01;34mAssociation[0m               [00mException.cpp[0m        [01;34mShell Scripting[0m
+[00mBankSimulation.cpp[0m        [00minsert_elements.cpp[0m  [00mstring1.cpp[0m
+[00mccprog.c[0m                  [00mminmax.cpp[0m           [00mstringpgm.cpp[0m
+[00mcharpoint.cpp[0m             [00mmobile.cpp[0m           [00mstudentInfo.cpp[0m
+[01;34mcompile &runtime[0m          [01;34mMyString[0m             [00mswapUsingRef.cpp[0m
+[00mconstantsandpointers.cpp[0m  [01;34mpayslip[0m              [00mtime.cpp[0m
+[00mconstmember.cpp[0m           [00mptrarith.cpp[0m         [00mUsageOfStatic.cpp[0m
+[00mcprog.cpp[0m                 [00mptrconversion.cpp[0m
+
+./5.player:
+[00;32ma.out[0m  [00mmain.cpp[0m  [00mplayer.cpp[0m  [00mplayer.h[0m
+
+./Abstraction:
+[00;32ma.out[0m  [00mcircle.cpp[0m  [00mcircle.h[0m  [00mmain.cpp[0m  [00mrect.cpp[0m  [00mrect.h[0m  [00mshape.cpp[0m  [00mshape.h[0m
+
+./Address:
+[00m\[0m  [00maddress.cpp[0m  [00maddress.h[0m  [00;32ma.out[0m  [00mmain.cpp[0m
+
+./Association:
+[00maddress.cpp[0m  [00maddress.h[0m  [00;32ma.out[0m  [00mmain.cpp[0m  [00mstudent.cpp[0m  [00mstudent.h[0m
+
+./compile &runtime:
+[00mcrcktPlayer.cpp[0m  [00mcrcktPlayer.h[0m  [00mmain.cpp[0m  [00mplayer.cpp[0m  [00mplayer.h[0m
+
+./evaluatiuon:
+[01;34mC Assignments[0m  [01;34mcpp assignments[0m
+
+./evaluatiuon/C Assignments:
+[00m10sumofarr.cpp[0m  [00m1sum.cpp[0m    [00m4digitNosum.cpp[0m  [00m7fact.cpp[0m       [00mmulti.cpp[0m
+[00m11mulby2.cpp[0m    [00m2roots.cpp[0m  [00m5recsum.cpp[0m      [00m8sortarr.cpp[0m    [00mrecsum.cpp[0m
+[00m12minmax.cpp[0m    [00m3fibo.cpp[0m   [00m6.area.cpp[0m       [00m9CharArray.cpp[0m  [00msum.cpp[0m
+
+./evaluatiuon/cpp assignments:
+[00m1studentInfo.cpp[0m  [00m3date.cpp[0m  [01;34m5.player[0m  [01;34m7payslip[0m
+[00m2time.cpp[0m         [01;34m4MyString[0m  [01;34m6Address[0m  [00m8mobile.cpp[0m
+
+./evaluatiuon/cpp assignments/4MyString:
+[00m\[0m  [00;32ma.out[0m  [00mmain.cpp[0m  [00mmyString.cpp[0m  [00mmyString.h[0m
+
+./evaluatiuon/cpp assignments/5.player:
+[00;32ma.out[0m  [00mmain.cpp[0m  [00mplayer.cpp[0m  [00mplayer.h[0m
+
+./evaluatiuon/cpp assignments/6Address:
+[00m\[0m  [00maddress.cpp[0m  [00maddress.h[0m  [00;32ma.out[0m  [00mmain.cpp[0m
+
+./evaluatiuon/cpp assignments/7payslip:
+[00mpayslip.cpp[0m  [00mpayslip.h[0m  [00mpayslipmain.cpp[0m
+
+./MyString:
+[00m\[0m  [00;32ma.out[0m  [00mmain.cpp[0m  [00mmyString.cpp[0m  [00mmyString.h[0m
+
+./payslip:
+[00mpayslip.cpp[0m  [00mpayslip.h[0m  [00mpayslipmain.cpp[0m
+
+./separate header:
+[00mmain.cpp[0m  [00mStudent.cpp[0m  [00mStudent.h[0m
+
+./Shell Scripting:
+[01;34mAssignment 1[0m  [01;34mAssignment 2[0m  [01;34massignments[0m
+
+./Shell Scripting/Assignment 1:
+[00m10.sumOfdigits.sh[0m       [00m3.TrianglePattern1.sh[0m  [00m7.factorial.sh[0m
+[00m11.TrianglePattern4.sh[0m  [00m4.TrianglePattern2.sh[0m  [00m8.average.sh[0m
+[00m1.printVertical.sh[0m      [00m5.TrianglePattern3.sh[0m  [00m9.reverse.sh[0m
+[00m2.printHorizontal.sh[0m    [00;32m6.addition.sh[0m
+
+./Shell Scripting/Assignment 2:
+[00m10.fileProperties.sh[0m  [00m6.biggestOfThree.sh[0m  [00m9.oddEven.sh[0m
+[00m4.leapYear.sh[0m         [00m7.fileTypeCheck.sh[0m   [01;34mQ1[0m
+[00m5.swap.sh[0m             [00m8.primeNo.sh[0m         [01;34mQ2[0m
+
+./Shell Scripting/Assignment 2/Q1:
+[00mQ1[0m  [00mtest1.txt[0m  [00mtest2.txt[0m  [00mtest3.txt[0m
+
+./Shell Scripting/Assignment 2/Q2:
+[01;34mQ22[0m
+
+./Shell Scripting/As

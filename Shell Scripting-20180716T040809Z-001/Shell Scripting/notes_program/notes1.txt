@@ -1,0 +1,149 @@
+How to use the command
+
+$date 
+#date
+
+
+Command prompt
+shell
+terminal
+
+
+	/ -  root directory
+	/root  - home directory for root user
+	
+	home dir for kaushal -  /home/kaushal	
+	             dac     -  /home/dac
+
+
+	two types of user
+	1. root user ( super user/ most privileged user	
+	    eg. root
+	2. non-root user ( less privileged user )
+	    eg. kaushal, dac 
+	    
+---------------------------
+
+how to create file
+1. vim or vi
+2. cat 
+------------------
+cat command has three purpose
+1. create a file
+2. display content of a file
+3. concatenate two or more file content 
+
+-----------------------
+what is a shell program/shell script.
+It is a file.
+Any known extension of this file
+Ans: shellp1.sh
+-Purpose of writing shell program
+1. handling to commands very easy 
+2. Automation 
+3. Installation 
+4. Upgrdtion of system can be easy
+5. Compilation of source code
+
+Shell programs are for automation not for computation.
+
+
+
+
+
+--------------------------------------
+
+ rwxrwxrwx
+	
+ rw-rw-r--
+	
+	every file has three set of permission
+	rw-		rw-		r--
+	1		2		3	
+	user/owner	group mem	other
+	u		g		o
+
+	r-read		
+	w-write	
+	x-execute 
+
+	u-user
+	g-group
+	o-other
+
+	+ grant permission
+	- revoke permission
+
+-------------------------------
+	$echo "hello world"
+	$echo 'hello world'
+	$echo hello world
+
+	"  " ( double )
+	'  ' ( single )
+	`  ` ( back tick )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$command-name  -option  args/paras
+	1	   2	   3
+
+	/home/dac
+		
+			/
+		
+		home		bin  sbin    root
+		
+		dac
+
+
+How to execute a shell prog
+1.  $./shell1.sh
+2.  $bash shell1.sh
+3.  $sh  shell1.sh
+4.  $csh shell1.sh
+5.  $tcsh shell1.sh
+6.  $ksh shell1.sh
+7.  $zsh shell1.sh
+8.  $source shell1.sh
+9.  $. shell1.sh
+10. $shell1.sh
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
